@@ -1,0 +1,15 @@
+C:\Users\Administrator\AppData\Local\Temporary Projects\DeleteContainer\bin\Debug\DeleteContainer.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\DeleteContainer\bin\Debug\DeleteContainer.pdb
+C:\Users\Administrator\AppData\Local\Temporary Projects\DeleteContainer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\AppData\Local\Temporary Projects\DeleteContainer\obj\x86\Debug\DeleteContainer.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\DeleteContainer\obj\x86\Debug\DeleteContainer.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\DeleteContainer\DeleteContainer\obj\x86\Debug\DeleteContainer.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\DeleteContainer\DeleteContainer\obj\x86\Debug\DeleteContainer.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\DeleteContainer\DeleteContainer\bin\Debug\DeleteContainer.exe.manifest
+C:\Users\Administrator\documents\visual studio 2010\Projects\DeleteContainer\DeleteContainer\bin\Debug\DeleteContainer.application
+C:\Users\Administrator\documents\visual studio 2010\Projects\DeleteContainer\DeleteContainer\bin\Debug\DeleteContainer.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\DeleteContainer\DeleteContainer\bin\Debug\DeleteContainer.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\DeleteContainer\DeleteContainer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\DeleteContainer\DeleteContainer\obj\x86\Debug\DeleteContainer.TrustInfo.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\DeleteContainer\DeleteContainer\obj\x86\Debug\DeleteContainer.exe.manifest
+C:\Users\Administrator\documents\visual studio 2010\Projects\DeleteContainer\DeleteContainer\obj\x86\Debug\DeleteContainer.application

@@ -1,0 +1,18 @@
+C:\Users\Administrator\AppData\Local\Temporary Projects\CreateCloudServers\bin\Debug\CreateCloudServers.exe.manifest
+C:\Users\Administrator\AppData\Local\Temporary Projects\CreateCloudServers\bin\Debug\CreateCloudServers.application
+C:\Users\Administrator\AppData\Local\Temporary Projects\CreateCloudServers\bin\Debug\CreateCloudServers.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\CreateCloudServers\bin\Debug\CreateCloudServers.pdb
+C:\Users\Administrator\AppData\Local\Temporary Projects\CreateCloudServers\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\AppData\Local\Temporary Projects\CreateCloudServers\obj\x86\Debug\CreateCloudServers.exe.manifest
+C:\Users\Administrator\AppData\Local\Temporary Projects\CreateCloudServers\obj\x86\Debug\CreateCloudServers.application
+C:\Users\Administrator\AppData\Local\Temporary Projects\CreateCloudServers\obj\x86\Debug\CreateCloudServers.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\CreateCloudServers\obj\x86\Debug\CreateCloudServers.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\CreateCloudServers\CreateCloudServers\obj\x86\Debug\CreateCloudServers.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\CreateCloudServers\CreateCloudServers\obj\x86\Debug\CreateCloudServers.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\CreateCloudServers\CreateCloudServers\bin\Debug\CreateCloudServers.exe.manifest
+C:\Users\Administrator\documents\visual studio 2010\Projects\CreateCloudServers\CreateCloudServers\bin\Debug\CreateCloudServers.application
+C:\Users\Administrator\documents\visual studio 2010\Projects\CreateCloudServers\CreateCloudServers\bin\Debug\CreateCloudServers.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\CreateCloudServers\CreateCloudServers\bin\Debug\CreateCloudServers.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\CreateCloudServers\CreateCloudServers\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\CreateCloudServers\CreateCloudServers\obj\x86\Debug\CreateCloudServers.exe.manifest
+C:\Users\Administrator\documents\visual studio 2010\Projects\CreateCloudServers\CreateCloudServers\obj\x86\Debug\CreateCloudServers.application

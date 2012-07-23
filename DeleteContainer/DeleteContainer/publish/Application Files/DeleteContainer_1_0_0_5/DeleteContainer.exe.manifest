@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.0.0.5" name="DeleteContainer.exe" publicKeyToken="1167232c0fd1394d" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DeleteContainer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="DeleteContainer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DeleteContainer.exe" size="14848">
+      <assemblyIdentity name="DeleteContainer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>4r/f6Cq3e0aYiphvmDsEkMMNqu0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=TEST-RS-XENNET\Administrator" issuerKeyHash="461022f5e828ce35cd3fb1c45e2bfd92c03cb44e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>KV/gJyoOVXg8mnNU+wL8vZBV9s0=</DigestValue></Reference></SignedInfo><SignatureValue>Y207rmfHOTlbzb5xLFN38RrJr5By/O9AKX9PhObiWsSdHocrP9oXM29dgqtY1CfXXLe5UO5T6AaxpD/9VqKbMhidx1UJsf7zzrYQEjKRu/lMumaEvehDMEQtKdEy8qOeD4uodmwPgC7MgK6tIm0fvRfQJWUkCfxSotu8Hp3HclY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ssWR/5MqrcDYqOLecaHinatPp3fQFyJr9nA/AZvxa3hzhD3TITFGwU7Ms3WRfo1ybdjxM7gi5u5yRPvC8CpljhRkBVMUFS+xSF2mh5gnNs9yQoSSBQ/ppot4MxSsAgtnJHw8VUPuH2ISZAyl6GcR4mcelHvscZFlnRZqXoDE8OE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cdf65590bdfc02fb54739a3c78550e2a27e05f29" Description="" Url=""><as:assemblyIdentity version="1.0.0.5" name="DeleteContainer.exe" publicKeyToken="1167232c0fd1394d" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TEST-RS-XENNET\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>rRuVIn3hns/Xa9R6JqToL2qVOBo=</DigestValue></Reference></SignedInfo><SignatureValue>jc+P5B4WuVYPW0HzKcPA9Ujla1rBZU2rgoUgEHkGoqNRgzQGECXjBqphmFbcbM8jgECZN/qn+AO8u4qKW6dmnOAnr/oYgDFbqOLn+ZmPma9OQ3ipvwd2fZIM+gVn64mG29QqIyfPUk9soB0wF2IyR2hXsgtpm5VTi0Mp9EyxBwc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ssWR/5MqrcDYqOLecaHinatPp3fQFyJr9nA/AZvxa3hzhD3TITFGwU7Ms3WRfo1ybdjxM7gi5u5yRPvC8CpljhRkBVMUFS+xSF2mh5gnNs9yQoSSBQ/ppot4MxSsAgtnJHw8VUPuH2ISZAyl6GcR4mcelHvscZFlnRZqXoDE8OE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICCTCCAXKgAwIBAgIQdX1Tgmag25NB4/Cg2SADJzANBgkqhkiG9w0BAQUFADBDMUEwPwYDVQQDHjgAVABFAFMAVAAtAFIAUwAtAFgARQBOAE4ARQBUAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjAeFw0xMjA3MTgwOTQxMzdaFw0xMzA3MTgxNTQxMzdaMEMxQTA/BgNVBAMeOABUAEUAUwBUAC0AUgBTAC0AWABFAE4ATgBFAFQAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyxZH/kyqtwNio4t5xoeKdq0+nd9AXImv2cD8Bm/FreHOEPdMhMUbBTsyzdZF+jXJt2PEzuCLm7nJE+8LwKmWOFGQFUxQVL7FIXaaHmCc2z3JChJIFD+mmi3gzFKwCC2ckfDxVQ+4fYhJkDKXoZxHiZx6Ue+xxkWWdFmpegMTw4QIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAAhdUSQoWtsG2YiByxqUfFdc3Wd32QJwzkkfyzzC0Nt+6roYrpcXvI1f0hVIiDfagiAL6o5YRLN/gbkq/bRpyjEGsbegDRwGJqEep7b9EoEyVQsUg1Uw+tR4GfdCuPRs5QhDEPsTU+Bbj1118KA2mkGfi1fgoa8C/Zz9cmkfdyk/</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

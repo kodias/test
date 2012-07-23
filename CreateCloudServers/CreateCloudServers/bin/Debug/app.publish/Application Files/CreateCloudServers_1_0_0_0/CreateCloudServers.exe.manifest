@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="CreateCloudServers.exe" version="1.0.0.0" publicKeyToken="501ef36ed4a9b2ac" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CreateCloudServers" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="CreateCloudServers.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CreateCloudServers.exe" size="4096">
+      <assemblyIdentity name="CreateCloudServers" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>pZ4Oy5GNo6/RiZpt8VtmzAkna/s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=TEST-RS-XENNET\Administrator" issuerKeyHash="a12bbb5a2125fdf233336c385271d611f5c36b05" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>8x6EiFtd6bSq/vn8DjpHqf/JjJw=</DigestValue></Reference></SignedInfo><SignatureValue>Pn+fthI7WObmCbzITyY0zuCTy0W1OeXIsf4zK45r4iuKpScDDqixg+7KNa7MRuNU1mjBdOHQqTiit84WDTSCdDXeivOPgEI2TL34n/PlJcpTruusn0LJelg3QoccuqQT4r08ifI8+DUFbmbWcQY5FL3bU8cYdsct1t967olI+ZI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0a4v7WfhIo9Z0lg+tbvN3ueFSuASbEnFJsBNptUNiDRIcuIbPUziYfTAiYfqkGLcqcdLvyq/GcdSyVfbZU9mZNIcxUmu/Z3jdx0CMr1V8oKMZb/OxB0mokpbSi7My/b60uOhjG+VMjX7nu7zNHGm/ZCEOkrtPl0OWs6u1r9w1vU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9c8cc9ffa9473a0efcf9feaab4e95d5b88841ef3" Description="" Url=""><as:assemblyIdentity name="CreateCloudServers.exe" version="1.0.0.0" publicKeyToken="501ef36ed4a9b2ac" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TEST-RS-XENNET\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>3olh572XUzydtDoznDJv3TmsKIA=</DigestValue></Reference></SignedInfo><SignatureValue>O+jysm59RYgkSBynK2VHnheWOEUCVGTZTAHUNpxbAGIUDA5WnrWyr59GvmqQy1hLsWiIC0zaxYIENPMSdMCaLoDxq20qsqMyR38J5z3+B3pc/xAE7NlWhWHqI7wpLnAsI3eQtvAo2sjifR85KvuPmFA5pA5O8mjSKN9VxIp2WM8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0a4v7WfhIo9Z0lg+tbvN3ueFSuASbEnFJsBNptUNiDRIcuIbPUziYfTAiYfqkGLcqcdLvyq/GcdSyVfbZU9mZNIcxUmu/Z3jdx0CMr1V8oKMZb/OxB0mokpbSi7My/b60uOhjG+VMjX7nu7zNHGm/ZCEOkrtPl0OWs6u1r9w1vU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICCTCCAXKgAwIBAgIQQiPceu7mJJZJkDLWNywkojANBgkqhkiG9w0BAQUFADBDMUEwPwYDVQQDHjgAVABFAFMAVAAtAFIAUwAtAFgARQBOAE4ARQBUAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjAeFw0xMjA2MjYxMzA5MDRaFw0xMzA2MjYxOTA5MDRaMEMxQTA/BgNVBAMeOABUAEUAUwBUAC0AUgBTAC0AWABFAE4ATgBFAFQAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDRri/tZ+Eij1nSWD61u83e54VK4BJsScUmwE2m1Q2INEhy4hs9TOJh9MCJh+qQYtypx0u/Kr8Zx1LJV9tlT2Zk0hzFSa79neN3HQIyvVXygoxlv87EHSaiSltKLszL9vrS46GMb5UyNfue7vM0cab9kIQ6Su0+XQ5azq7Wv3DW9QIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAKhuFivI0PJkEebowTocnhhenaD093k38oeXri7LcJSuKhdBzQrkXanQgl5aYx1p130EZkjtfY0bMgZQdxI1q3qNI0UJLsINQkD5fM+uMaSWajoN2DQ4ki3AkU2rWHSyUWGeWddndo0/YQzHzD6aSoeEwxaIzc2XCmVPNrFuN50/</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
